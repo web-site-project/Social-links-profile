@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "inter";
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "inter";
+}
+
+body{
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.profile{
+    width: 300px;
+    min-width: 250px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.profile .user-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.profile .user-image img{
+    width: 100%;
+    height: auto;
+}
+
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.user-info .user-name{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.user-info .address{
+    color: #c5f82a;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px 0 30px 0 ;
+}
+
+.user-info .user-job{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons button{
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+
+.buttons button a{
+    width: 100%;
+    padding: 10px 0;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.buttons button a:hover{
+    background-color: #c5f82a;
+    color: #000000;
+}
